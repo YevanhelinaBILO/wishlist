@@ -2,6 +2,7 @@ body{
     background-image: url("../images/Birthey.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    min-height: 100vh;
 }
 
 h1{
@@ -72,6 +73,27 @@ h1{
     transform: rotate(90deg);
     top: -35px;
 }
+
+
+@media(max-width:550px){
+    .wish__list li{
+        font-size: 15px;
+    }
+    .wish__list-title::after{
+        display: none;
+
+    }
+    .wish__list{
+        margin: 0 auto;
+    }
+    h1{
+        font-size: 50px;
+    }
+    body{
+        background-position: center right;
+    }
+}
+
 
 
 
